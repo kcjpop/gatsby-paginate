@@ -43,7 +43,7 @@ const createPaginatedPages = (
         last: isLastPage(index, groups),
         index: index + 1,
         pageCount: groups.length
-      })
+      }, context)
     });
   });
 };
